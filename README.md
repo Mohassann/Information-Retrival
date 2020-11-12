@@ -15,7 +15,6 @@
 - ubuntu 18.04
 
 pylucene official docs for installation https://lucene.apache.org/pylucene/install.html .
-Installation file is only for ubuntu.
 
 
 
