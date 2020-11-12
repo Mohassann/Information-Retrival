@@ -1,0 +1,45 @@
+# Tested on Ubuntu 18.04
+# with Python 3.6
+# Instructions: Run it line by line and follow the instructions in the comments (just one)
+provided by https://gist.github.com/avivzk2/10c88b37d280f873cf72a9a344755368
+
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get install python3 python3-dev python3-pip build-essential git
+
+sudo -H pip3 install --upgrade pip
+
+sudo add-apt-repository ppa:webupd8team/java
+
+sudo apt-get update
+
+sudo apt-get install oracle-java8-installer
+
+sudo apt-get install ant
+
+cd
+
+wget http://apache.spd.co.il/lucene/pylucene/pylucene-7.5.0-src.tar.gz
+
+tar -xvf pylucene-7.5.0-src.tar.gz
+
+cd pylucene-7.5.0/
+
+pushd jcc
+
+python3 setup.py build
+
+sudo python3 setup.py install
+
+popd
+
+nano Makefile
+
+# Uncomment the lines where it says 'Debian Jessie'
+
+make
+
+sudo make install
