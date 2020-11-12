@@ -51,7 +51,7 @@ class IndexFiles(object):
             os.mkdir(storeDir)
 
         #  same for all the indexing procedures
-        Storing = MMapDirectory(Paths.get(storeDir)) # As it is also mentioned by the apache that better to use MMapDirectory instead of the SimpleFSDirectory
+        Storing = SimpleFSDirectory(Paths.get(storeDir)) 
         analyzer = LimitTokenCountAnalyzer(analyzer, 1048576)  # Limiting the number of the Tokens while indexing
         Configure = IndexWriterConfig(analyzer)  # configurations that are used for creating the IndexWriter
         Configure.setOpenMode(IndexWriterConfig.OpenMode.CREATE)

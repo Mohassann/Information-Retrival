@@ -121,7 +121,7 @@ if __name__ == '__main__':
     lucene.initVM(vmargs=['-Djava.awt.headless=true'])
     print('lucene', lucene.VERSION)
     base_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-    directory = MMapDirectory(Paths.get(os.path.join(base_dir, INDEX_DIR)))
+    directory = SimpleFSDirectory(Paths.get(os.path.join(base_dir, INDEX_DIR)))
     searcher = IndexSearcher(DirectoryReader.open(directory))
     searcher.setSimilarity(BM25Similarity())
     analyzer = StandardAnalyzer()
