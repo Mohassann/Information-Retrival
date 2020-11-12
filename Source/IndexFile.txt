@@ -1,0 +1,10 @@
+https://github.com/fnp/pylucene/blob/master/samples/IndexFiles.py
+
+https://github.com/adham-elsabbagh/IR_Assignment
+
+
+https://github.com/fish2000/pylucene/blob/master/samples/IndexFiles.py
+
+
+https://stackoverflow.com/questions/42308801/python-lucene-function-add-field-contents-to-document-not-working
+
