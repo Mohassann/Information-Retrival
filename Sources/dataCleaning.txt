@@ -1,0 +1,7 @@
+https://github.com/adham-elsabbagh/IR_Assignment/blob/master/parser.py
+
+https://docs.python.org/2/library/re.html
+
+https://www.guru99.com/python-regular-expressions-complete-tutorial.html
+
+https://www.kite.com/python/answers/how-to-use-re.sub()-in-python

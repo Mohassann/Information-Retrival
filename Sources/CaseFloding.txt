@@ -1,0 +1,3 @@
+https://github.com/fish2000/pylucene/blob/master/python/ICUFoldingFilter.py
+
+https://lucene.apache.org/core/4_1_0/analyzers-icu/overview-summary.html

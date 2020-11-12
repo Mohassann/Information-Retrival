@@ -1,0 +1,10 @@
+https://www.datacamp.com/community/tutorials/stemming-lemmatization-python
+
+
+https://www.nltk.org/howto/wordnet.html
+
+
+https://www.machinelearningplus.com/nlp/lemmatization-examples-python/
+
+
+http://nltk.org/
